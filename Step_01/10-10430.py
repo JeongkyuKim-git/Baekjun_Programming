@@ -1,6 +1,6 @@
 # Baekjun_Programming
 
-# Title : 사칙연산(calculator)
+# Title : 나머지(remainder)
 # C:\Users\jkkim\PycharmProjects\Beckjun
 # -*- coding: utf-8 -*-
 #
