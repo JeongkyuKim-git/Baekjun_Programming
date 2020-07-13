@@ -1,6 +1,6 @@
 # Baekjun_Programming
 
-# Title : We love kriii
+# Title : Cat
 # C:\Users\jkkim\PycharmProjects\Beckjun
 # -*- coding: utf-8 -*-
 #
