@@ -10,7 +10,7 @@
 #  Author       : Jeongkyu Kim
 #  E-mail       : jkkim@mme.dongguk.edu
 #  Version      : 0.1
-#  Rev. Date    : July. 13, 2020
+#  Rev. Date    : July. 15, 2020
 #
 #  First, I used to program name is PyCham
 #   - Python 3.0
