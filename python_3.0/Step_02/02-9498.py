@@ -1,4 +1,3 @@
-  
 # Baekjun_Programming
 
 # Title : 시험 성적
