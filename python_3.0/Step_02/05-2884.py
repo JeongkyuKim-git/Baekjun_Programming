@@ -37,3 +37,30 @@
 #  예제 입력_03 : 23 40
 #  예제 출력_03 : 22 55
 # -----------------------------------------------------------------------------------------------------------
+# 나의 소스 코드 단점: (백준에서 측정하는 시간이 초과되는 문제가 있었다.)
+
+"""
+import time
+# Hour (시간), Minute (분)
+H, M = map(int, input().split())
+start = time.time()  # 시작 시간 저장
+M = M -45
+if (M < 0):
+    sum = 60 + M
+    H = H - 1
+    if (H == -1):
+        print(H + 24, sum)
+    else: print(H, sum)
+elif (M > 0): print (H,M)
+print("time :", time.time() - start)  # 현재시각 - 시작시간 = 실행 시간
+"""
+
+# 참고 https://yongku.tistory.com/entry tistory의 어느 블로그를 참고했을 때 나와 다른 점은 코드 길이를 줄이며, 불 필요한 내용을 작성하지 않는다는 점이 었다.
+H, M = map(int, input().split())
+
+if M > 44 :
+    print(H,M-45);
+elif M < 45 and H>0 :
+    print(H-1,M+15)
+else :
+    print(23, M+15)
