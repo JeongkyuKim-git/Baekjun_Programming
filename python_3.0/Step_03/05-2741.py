@@ -1,4 +1,4 @@
-  # Baekjun_Programming
+# Baekjun_Programming
 
 # Title : N 찍기
 # C:\Users\jkkim\PycharmProjects\Beckjun
