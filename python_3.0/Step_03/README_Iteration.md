@@ -1,8 +1,6 @@
 # Part Step_03
 Iteration statement
 
-- for
-"" for [] in []
+- for [] in []
   
-- while
-"" while []:
+- while []:
