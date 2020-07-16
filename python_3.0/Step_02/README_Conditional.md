@@ -1,6 +1,4 @@
 # Part Step_02
 Conditional statement
 
-- if
-  if []:
-    print('')
+- if []: print('')
