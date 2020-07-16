@@ -1,4 +1,3 @@
-  
 # Baekjun_Programming
 
 # Title : A + B -7
