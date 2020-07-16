@@ -2,7 +2,7 @@
 Iteration statement
 
 - for
-  for [] in []
+- for [] in []
   
 - while
-  while []:
+- while []:
