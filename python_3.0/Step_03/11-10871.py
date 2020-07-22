@@ -26,3 +26,15 @@
 #             1 10 4 9 2 3 8 5 7 6
 #  예제 출력 : 1 4 2 3
 # -----------------------------------------------------------------------------------------------------------
+import sys
+
+# n (number)
+number = sys.stdin.readline()
+x_number = sys.stdin.readline()
+Arr = list(sys.stdin.readline().split())
+
+print(Arr)
+
+for i in Arr:
+    if i < x_number:
+        print(i, end=" ")
