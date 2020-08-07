@@ -34,3 +34,27 @@
 #             17
 #             7
 # -----------------------------------------------------------------------------------------------------------
+# 문제를 해석하고 출력을 했을 경우 틀렸다고 하여, 어떤 문제가 있는지 생각했다.
+# 1. 입력을 받자마자 에러가 난다고 가정했을때, 조건에 해당되는 B<10을 해야 종료되는 줄 알았지만 그렇지 않았다.
+# 2. 다른 블로그의 참고를 해보니 에러가 나도 동작이 된다는 것에 의아한 문제이다.
+
+# 1. 
+"""
+while True:
+    number = list(map(int,sys.stdin.readline().split()))
+    if (number[1] > 10):
+        break
+    else:
+        Result = number[0] + number[1]
+        print(Result)
+    number.clear()
+"""
+
+# 2.
+while True:
+    try:
+        A, B=map(int,input().split())
+        print(A+B)
+    except EOFError:
+        break
+
