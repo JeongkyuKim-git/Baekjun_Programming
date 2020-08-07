@@ -10,7 +10,7 @@
 #  Author       : Jeongkyu Kim
 #  E-mail       : jkkim@mme.dongguk.edu
 #  Version      : 0.1
-#  Rev. Date    : July. 23, 2020
+#  Rev. Date    : August. 07, 2020
 #
 #  First, I used to program name is PyCham
 #   - Python 3.0
@@ -36,3 +36,12 @@
 #             17
 #             7
 # -----------------------------------------------------------------------------------------------------------
+import sys
+
+while True:
+    number = list(map(int,sys.stdin.readline().split()))
+    Result = number[0] + number[1]
+    if (number[0] == 0 and number[1] == 0):
+        break
+    else : print(Result)
+    number.clear()
