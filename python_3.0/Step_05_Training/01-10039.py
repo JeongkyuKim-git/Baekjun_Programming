@@ -35,3 +35,15 @@
 #  예제 출력 : 68
 # 
 # -----------------------------------------------------------------------------------------------------------
+Sum = 0
+Number = 0
+
+for i in range(5):
+    Number = int(input())
+    if Number < 40:
+       Number = 40
+       Sum = Sum + Number
+    elif Number >=40:
+        Sum = Sum + Number
+average = Sum / 5
+print(int(average))
